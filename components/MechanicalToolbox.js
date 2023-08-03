@@ -1,5 +1,5 @@
-import { View, StyleSheet } from 'react-native';
 import React from 'react';
+import { View, StyleSheet } from 'react-native';
 import { WebView } from 'react-native-webview';
 
 const styles = StyleSheet.create({
@@ -8,8 +8,9 @@ const styles = StyleSheet.create({
   },
 });
 
-const NPSHcalculator = () => {
-  const linkUrl = 'http://www.aquateconline.com/ToolboxApp/PumpToolbox.aspx?Page="NPSH';
+const MachenicalToolbox = () => {
+
+  const linkUrl = 'http://www.aquateconline.com/ToolboxApp/PumpToolbox.aspx';
 
   return (
     <View style={styles.container}>
@@ -21,4 +22,4 @@ const NPSHcalculator = () => {
   );
 };
 
-export default NPSHcalculator
+export default MachenicalToolbox

@@ -1,20 +1,24 @@
-import { View, Text, StyleSheet } from 'react-native'
-import React from 'react'
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+import { WebView } from 'react-native-webview';
 
 const styles = StyleSheet.create({
   container: {
-  },
-  text: {
-    color: '#000',  
+    flex: 1,
   },
 });
 
 const QuickSelect = () => {
+  const linkUrl = 'https://example.com/';
+
   return (
-    <View>
-      <Text style={styles.text}>QuickSelect</Text>
+    <View style={styles.container}>
+      <WebView
+        source={{ uri: linkUrl }}
+        style={{ flex: 1 }}
+      />
     </View>
-  )
-}
+  );
+};
 
 export default QuickSelect

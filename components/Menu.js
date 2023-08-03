@@ -45,10 +45,10 @@ const Menu = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Header />
-      <TouchableOpacity style={styles.menuItem} onPress={() => navigation.navigate('MachanicalToolbox')}>
+      <TouchableOpacity style={styles.menuItem} onPress={() => navigation.navigate('MechanicalToolbox')}>
         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
           <Image source={require('../assets/Icons/Pump.png')} style={styles.menuImage} />
-          <Text style={styles.menuText}>Machenical Toolbox</Text>
+          <Text style={styles.menuText}>Mechanical Toolbox</Text>
         </View>
         <Icon name="arrow-forward-outline" size={25} color="#000" />
       </TouchableOpacity>
