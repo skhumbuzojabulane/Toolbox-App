@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
 });
 
 const QuickSelect = () => {
-  const linkUrl = 'https://example.com/';
+  const linkUrl = 'http://aol-prebeta.aquateconline.com/(S(xd3gfz3dbjjhcehqg3pnxis1))/duty_franklin.aspx';
 
   return (
     <View style={styles.container}>

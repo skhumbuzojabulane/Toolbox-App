@@ -15,11 +15,11 @@ const StackNavigator = () => {
   return (
       <Stack.Navigator>
         <Stack.Screen name="Menu" component={Menu} options={{ headerShown: false }} />
-        <Stack.Screen name="ElectricalToolbox" component={ElectricalToolbox} />
-        <Stack.Screen name="MechanicalToolbox" component={MechanicalToolbox} />
-        <Stack.Screen name="NPSHcalculator" component={NPSHcalculator} />
-        <Stack.Screen name="QuickSelect" component={QuickSelect} />
-        <Stack.Screen name="UnitsAndConversions" component={UnitsAndConversions} />
+        <Stack.Screen name="ElectricalToolbox" component={ElectricalToolbox} options={{ title: 'Electrical Toolbox' }} />
+        <Stack.Screen name="MechanicalToolbox" component={MechanicalToolbox} options={{ title: 'Mechanical Toolbox' }} />
+        <Stack.Screen name="NPSHcalculator" component={NPSHcalculator} options={{ title: 'NPSH Calculator' }} />
+        <Stack.Screen name="QuickSelect" component={QuickSelect} options={{ title: 'Quick Select' }} />
+        <Stack.Screen name="UnitsAndConversions" component={UnitsAndConversions} options={{ title: 'Units & Conversions' }} />
       </Stack.Navigator>
   );
 };

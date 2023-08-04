@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
 });
 
 const ElectricalToolbox = () => {
-  const linkUrl = 'http://www.aquateconline.com/ToolboxApp/ElectricalToolbox.aspxNPSH';
+  const linkUrl = 'http://www.aquateconline.com/ToolboxApp/ElectricalToolbox.aspx';
 
   return (
     <View style={styles.container}>
