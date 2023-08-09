@@ -4,10 +4,7 @@ import { WebView } from 'react-native-webview';
 
 export default class UnitsAndConversions extends React.Component {
   render() {
-    return ( 
-      <View style={{ flex: 1, justifyContent: 'center' }}>
-        <Text style={{color: 'black', fontSize: 16, textAlign: 'center' }}>Coming Soon!</Text>
-      </View>
+    return ( <WebView source={{uri: 'http://www.aquateconline.com/ToolboxApp/PumpToolbox.aspx?Page=Units'}} />
     );
   }
 }
